@@ -1,0 +1,201 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <!-- Add your site or application content here -->
+    <!--Header Area Start-->
+    <div class="header-area">
+        <div class="container">
+            <div class="row header-header">
+                <div class="col-md-2 col-sm-6 col-xs-6">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-6 visible-sm col-xs-6">
+                    <div class="header-right">
+                        <ul>
+                            <li class="user-login">
+                                <a href="#">
+                                    <i class="flaticon-people"></i>
+                                </a>
+                                <div class="sub-user">
+                                    <div class="user-item">
+                                        <div class="sign-in">
+                                            <i class="fas fa-user-plus"></i>
+                                            <a href="signup.html">Đăng kí</a>
+                                        </div>
+                                    </div>
+                                    <div class="user-item">
+                                        <div class="sign-in">
+                                            <i class="fas fa-sign-in-alt"></i>
+                                            <a href="login.html">Đăng nhập</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="shoping-cart">
+                                <a href="#">
+                                    <i class="flaticon-shop"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 hidden-xs">
+                    <div class="mainmenu text-center">
+                        <nav>
+                            <ul id="nav">
+                                <li><a href="shop.html">Sách</a></li>
+                                <li><a href="shop.html">Khuyến mãi</a></li>
+                                <li><a href="#footer">Liên Hệ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-1 hidden-sm">
+                    <div class="header-right">
+                        <ul>
+                            <li class="user-login">
+                                <a>
+                                    <i class="flaticon-people"></i>
+                                </a>
+                                <div class="sub-user">
+                                    <div class="user-item">
+                                        <div class="sign-in">
+                                            <i class="fas fa-user-plus"></i>
+                                            <a href="signup.html">Đăng kí</a>
+                                        </div>
+                                    </div>
+                                    <div class="user-item">
+                                        <div class="sign-in">
+                                            <i class="fas fa-sign-in-alt"></i>
+                                            <a href="login.html">Đăng nhập</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="shoping-cart">
+                                <a href="#">
+                                    <i class="flaticon-shop"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Area End-->
+    <!-- Mobile Menu Start -->
+    <div class="mobile-menu-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="mobile-menu">
+                        <nav id="dropdown">
+                            <ul>
+                                <li><a href="shop.html">Sách</a></li>
+                                <li><a href="shop.html">Khuyến mãi</a></li>
+                                <li><a href="#footer">Liên Hệ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu End -->
+    <!-- Breadcrumbs Area Start -->
+    <div class="breadcrumbs-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumbs">
+                        <h2>Đăng nhập</h2>
+                        <ul class="breadcrumbs-list">
+                            <li>
+                                <a title="Return to Home" href="index.html">Trang chủ</a>
+                            </li>
+                            <li>Đăng nhập</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumbs Area Start -->
+    <!-- Loging Area Start -->
+    <div class="login-account section-padding">
+        <div class="container">
+            <div class="row"
+                 style="display: flex; align-items: center; justify-content: center;">
+                <div class="col-md-6 col-sm-6">
+                    <form action="" class="create-account-form" method="post">
+                        <h2 class="heading-title">
+                            Bạn đã có tài khoản ?
+                        </h2>
+                        <!-- <p style="color:red;"><%=request.getAttribute("msgLogin") != null ? request.getAttribute("msgLogin") : ""%>
+                              </p> -->
+                        <p class="form-row">
+                            <input style="outline: none;"
+                                   type="email"
+                                   name="email"
+                                   placeholder="Địa chỉ email" />
+                        </p>
+                        <p class="form-row">
+                            <input style="outline: none;"
+                                   type="password"
+                                   name="password"
+                                   placeholder="Mật khẩu" />
+                        </p>
+                        <p class="lost-password form-group">
+                            <a href="#" rel="nofollow">Quên mật khẩu ?</a>
+                        </p>
+                        <div class="submit">
+                            <button name="submitcreate"
+                                    id="submitcreate"
+                                    type="submit"
+                                    class="btn-default">
+                                <span>
+                                    <i class="fa fa-user left"></i>
+                                    Đăng nhập
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loging Area End -->
+    <!-- Footer Area Start -->
+    
+
+    <!-- <script>
+        function display() {
+            var xhttp;
+            var email = document.signupForm.email.value;
+            if (window.XMLHttpRequest) {
+                xhttp = new XMLHttpRequest();
+            } else {
+                xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4) {
+                    var data = xhttp.responseText;
+                    document.getElementById("result").innerHTML = data;
+                }
+            }
+            xhttp.open("POST", "http://localhost:8080/BookProject/ValidateFormController?email=" + email, true);
+            xhttp.send();
+        }
+    </script> -->
+</body>
+
